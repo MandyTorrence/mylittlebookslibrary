@@ -4,7 +4,7 @@ import { Container } from "../../components/Grid";
 import { List, ListItem } from "../../components/List";
 import Header from "../../components/Header";
 import API from "../../utils/API";
-import BookButton from "../../components/BookButton";
+import BookButton from "../../components/Button";
 
 class Saved extends Component {
     state = {
@@ -46,7 +46,7 @@ class Saved extends Component {
             return (
                 <div>
                     <Header>
-                        <h1 className="display-4">(React) Google Books Search</h1>
+                        <h1 className="display-4">Welcome to the Book Worm</h1>
                         <p className="lead">Search for and annotate books of interest.</p>
                         <hr className="my-4" />
                         <p className="lead">
@@ -63,7 +63,7 @@ class Saved extends Component {
         return (
             <div>
                 <Header>
-                    <h1 className="display-4">(React) Google Books Search</h1>
+                    <h1 className="display-4">Welcome to the Book Worm</h1>
                     <p className="lead">Search for and save books of interest.</p>
                     <hr className="my-4" />
                     <p className="lead">

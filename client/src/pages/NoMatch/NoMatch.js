@@ -1,17 +1,17 @@
 import React from "react";
 import { Container } from "../../components/Grid";
-import Jumbotron from "../../components/Jumbotron";
+import Header from "../../components/Header";
 
 const NoMatch = () => (
     <Container>
-        <Jumbotron>
+        <Header>
             <h1>404 Page Not Found</h1>
             <h1>
                 <span role="img" aria-label="Face With Rolling Eyes Emoji">
                     🙄
             </span>
             </h1>
-        </Jumbotron>
+        </Header>
     </Container>
 );
 

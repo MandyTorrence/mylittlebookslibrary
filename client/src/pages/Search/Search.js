@@ -49,7 +49,7 @@ class Search extends Component {
         return (
             <div>
                 <Header>
-                    <h1 className="display-4">(React) Google Books Search</h1>
+                    <h1 className="display-4">Welcome to the Book Worm</h1>
                     <p className="lead">Search for and save books of interest.</p>
                     <hr className="my-4" />
                     <p className="lead">
